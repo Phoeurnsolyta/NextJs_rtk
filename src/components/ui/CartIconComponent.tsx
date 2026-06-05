@@ -24,7 +24,7 @@ export default function CartIconComponent() {
             </span>
           )}
         </div>
-        <p className="font-semibold">Total: ${totalAmount.toFixed(2)}</p>
+        {/* <p className="font-semibold">Total: ${totalAmount.toFixed(2)}</p> */}
       </div>
     </Link>
   );
