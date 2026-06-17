@@ -1,8 +1,12 @@
-"use client";
+"use client"
 
-import ButtonComponent from "@/components/ButtonComponent";
-import { CardSmall } from "@/components/ui/CartComponent";
-import CartIconComponent from "@/components/ui/CartIconComponent";
+import ProductCardComponent from "@/components/products/ProductCardComponent";
+// import ButtonComponent from "@/components/ButtonComponent";
+// import ProductCardComponent from "@/components/products/ProductCardComponent";
+// import { CardSmall } from "@/components/ui/CartComponent";
+// import CartIconComponent from "@/components/ui/CartIconComponent";
+import ProductList from "@/features/products/ProductList";
+import ProductPage from "./products/page";
 // import { addToCart } from "@/features/cart/cartSlice";
 // import Image from "next/image";
 // import { useDispatch } from "react-redux";
@@ -14,7 +18,7 @@ export default function Home() {
   // };
   return (
     <main className="p-10">
-      <div>
+      {/* <div>
         <ButtonComponent/>  
       </div>
       <div className="flex items-center gap-4 mb-8">
@@ -23,9 +27,14 @@ export default function Home() {
         <div className="flex items-center align-middle">
           <CartIconComponent />
         </div>
-      </div>
+      </div> */}
 
-      <CardSmall />
+      {/* <CardSmall /> */}
+
+      <section>
+        
+       <ProductPage/>
+      </section>
     </main>
   );
 }

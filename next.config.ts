@@ -8,6 +8,22 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "i.pinimg.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.electromart.com.gh",
+      },
+      {
+        protocol: "https",
+        hostname: "pngimg.com",
+      },
+      {
+        protocol: "https",
+        hostname: "picsum.photos"
+      },
+      {
+        protocol: "https",
+        hostname: "i.imgur.com",
       }
     ],
   },
